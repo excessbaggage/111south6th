@@ -13,7 +13,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 text-center">
-        <h1 className="font-display font-normal text-white text-4xl md:text-6xl lg:text-7xl">
+        <h1 className="font-display font-bold text-white text-5xl md:text-7xl lg:text-8xl">
           111 South 6th Street
         </h1>
 
@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="w-16 h-[1px] bg-[#C9A96E] mx-auto my-6" />
 
-        <p className="font-display text-white text-2xl md:text-3xl">
+        <p className="font-display font-semibold text-white text-3xl md:text-4xl">
           $999,000
         </p>
 

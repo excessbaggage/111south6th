@@ -13,7 +13,7 @@ export default function History() {
         className="fade-up max-w-6xl mx-auto px-8"
       >
         {/* Heading */}
-        <h2 className="font-display text-3xl md:text-4xl text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-bold text-center">
           {historyContent.headline}
         </h2>
 

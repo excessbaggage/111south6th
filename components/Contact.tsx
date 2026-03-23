@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-[#2C2C2C]">
       <div ref={ref} className="max-w-6xl mx-auto px-8 fade-up">
-        <h2 className="font-display text-3xl md:text-4xl text-center text-white">
+        <h2 className="font-display text-4xl md:text-5xl font-bold text-center text-white">
           Schedule a Private Showing
         </h2>
         <div className="w-16 h-[1px] bg-[#C9A96E] mx-auto mt-6 mb-16" />

@@ -155,7 +155,7 @@ export default function Neighborhood() {
         ref={ref}
         className="fade-up max-w-6xl mx-auto px-8"
       >
-        <h2 className="font-display text-3xl md:text-4xl text-center">
+        <h2 className="font-display text-4xl md:text-5xl font-bold text-center">
           The Neighborhood
         </h2>
         <div className="w-16 h-[1px] bg-[#C9A96E] mx-auto mt-6 mb-16" />
