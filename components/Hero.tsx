@@ -8,8 +8,10 @@ export default function Hero() {
           'url("https://photos.zillowstatic.com/fp/a58f1d0b3943b31133d16105469b0c93-uncropped_scaled_within_1536_1152.webp")',
       }}
     >
-      {/* Dark gradient overlay */}
+      {/* Dark gradient overlay — bottom for content legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+      {/* Top gradient — ensures nav text is readable against bright sky */}
+      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/60 via-black/30 to-transparent z-[1]" />
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 text-center">

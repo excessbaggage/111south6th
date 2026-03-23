@@ -61,7 +61,7 @@ export default function Navigation() {
           <a
             href="#home"
             onClick={(e) => handleLinkClick(e, "#home")}
-            className="font-display text-sm uppercase tracking-[3px] text-white"
+            className="font-display text-base font-semibold uppercase tracking-[3px] text-white drop-shadow-md"
           >
             111 S 6TH ST
           </a>
@@ -73,7 +73,7 @@ export default function Navigation() {
                 <a
                   href={link.href}
                   onClick={(e) => handleLinkClick(e, link.href)}
-                  className="font-body uppercase text-xs tracking-[2px] text-white/80 hover:text-gold transition"
+                  className="font-body uppercase text-sm font-medium tracking-[2px] text-white hover:text-gold transition drop-shadow-md"
                 >
                   {link.label}
                 </a>
